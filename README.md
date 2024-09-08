@@ -16,3 +16,6 @@ Consider static factory methods instead of constructors
 1. The main limitation of providing only static factory methods is that classes without public or protected constructors cannot be subclassed.
 2. A second shortcoming of static factory methods is that they are hard for programmers to find.
 
+### Notes:
+1. Learn about service provider framework 
+2. Learn about Bridge Pattern
