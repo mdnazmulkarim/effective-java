@@ -19,3 +19,5 @@ Consider static factory methods instead of constructors
 ### Notes:
 1. Learn about service provider framework 
 2. Learn about Bridge Pattern
+3. Prior to Java 8, interfaces could not have static methods
+4. Use composition instead of inheritance (#Item 18)
