@@ -1,5 +1,6 @@
 package org.example.item1;
 
+//example from https://stackoverflow.com/questions/512877/why-cant-i-define-a-static-method-in-a-java-interface
 public class ArithmeticImplementation implements Arithmetic {
 
     @Override
