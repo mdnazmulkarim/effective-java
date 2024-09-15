@@ -8,6 +8,7 @@ public class NutritionFacts {
     private final int sodium;
     private final int carbohydrate;
 
+
     public static class Builder {
         private final int servingSize;
         private final int servings;
@@ -59,5 +60,7 @@ public class NutritionFacts {
     public static void main(String[] args) {
         NutritionFacts cocacola = new Builder(240, 8)
                 .calories(100).sodium(35).carbohydrate(27).build();
+
+       // NutritionFacts nf2 = new NutritionFacts(9,10, 0, 0, 10,0)
     }
 }
